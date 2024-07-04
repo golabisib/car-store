@@ -1,0 +1,49 @@
+@import "colors";
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    background-color: $firozehiColor;
+    width: 440px;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+
+  .header h2 {
+    font-size: 2.5rem;
+    border-bottom: 1px solid $darkBlueColor;
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: $firozehiColor;
+    text-align: center;
+    color: $darkBlueColor ;
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: $blueColor;
+  }
+  :hover.footer a  {
+    text-decoration: underline;
+    color: $darkBlueColor;
+  }
+
+  .container {
+    min-height: 1000px;
+  }
+
+  @media (max-width: 600px) {
+    .header {
+      width: 320px;
+    }
+  }

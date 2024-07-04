@@ -1,0 +1,19 @@
+@import 'colors';
+.container {
+    width: 440px;
+    margin: 50px auto;
+  }
+
+  .container a {
+    background-color: $khakiColor;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      width: 320px;
+    }
+  }
